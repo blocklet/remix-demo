@@ -1,0 +1,43 @@
+did: z2qaH9epg9ay3RKY2yeUodCNU2Va5LiU15C28
+name: z2qaH9epg9ay3RKY2yeUodCNU2Va5LiU15C28
+title: Remix Blocklet
+description: Demo blocklet with Remix
+version: 1.0.0
+group: dapp
+main: server.js
+author:
+  name: wangshijun
+specVersion: 1.2.8
+files:
+  - blocklet.md
+  - screenshots
+  - build
+  - public
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+scripts:
+  dev: npm run dev
+logo: logo.png
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+  nodejs: '*'
+environments: []
+capabilities: {}
+screenshots: []
+components: []

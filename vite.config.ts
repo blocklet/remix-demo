@@ -1,6 +1,7 @@
-import { vitePlugin as remix } from "@remix-run/dev";
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
+import { vitePlugin as remix } from '@remix-run/dev';
+import { defineConfig } from 'vite';
+// import { createBlockletPlugin } from 'vite-plugin-blocklet';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   plugins: [
@@ -11,6 +12,8 @@ export default defineConfig({
         v3_throwAbortReason: true,
       },
     }),
+    // FIXME: @zhanghan
+    // createBlockletPlugin(),
     tsconfigPaths(),
   ],
 });
