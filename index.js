@@ -3,7 +3,7 @@ import express from 'express';
 import path from 'path';
 
 const isProduction = process.env.NODE_ENV === 'production';
-const port = parseInt(process.env.PORT || '3001', 10);
+const port = parseInt(process.env.BLOCKLET_PORT || '3001', 10);
 
 const viteDevServer =
   isProduction
