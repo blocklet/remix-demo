@@ -8,7 +8,7 @@
     "dev": "node ./server.js",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "clean": "rm -rf build .blocklet",
-    "bundle": "npm run clean && npm run typecheck && blocklet bundle --create-release",
+    "bundle": "npm run clean && npm run typecheck && npm run build && blocklet bundle --create-release",
     "typecheck": "tsc"
   },
   "dependencies": {
