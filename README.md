@@ -4,5 +4,6 @@
 - [ ] Hot reloading
 - [ ] Assets loading
 - [ ] Blocklet.js
-- [ ] Blocklet bundle
-- [ ] Blocklet deploy
+- [x] Blocklet bundle
+- [x] Blocklet deploy
+- [x] Blocklet start
